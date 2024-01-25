@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Krona One', sans-serif;
+    background-color: #111010;
+    color: #FFF;
+}
+
+img {
+    width: 486px;
+    height: 550px;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__infos {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.infos__link {
+    text-decoration: underline;
+    color: #22D4FD;
+    transition: all 0.1s ease-in-out;
+}
+
+.infos__link:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos__link {
+    width: 280px;
+    height: 79px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #22D4FD;
+    background: #22D4FD;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.contatos__link:hover {
+    border: 5px solid #22D4FD;
+    background: #fff;
+}
